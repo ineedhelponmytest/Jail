@@ -1,0 +1,54 @@
+body {
+	background-color: gray;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+}
+
+#tv {
+	width: 10%;
+	hight: 10%;
+	position: fixed;
+	bottom: 160px;
+	left: 75%;
+	filter: grayscale(100%) blur(1px) brightness(50%);
+}
+
+#table {
+	width: 40%;
+	hight: 40%;
+	position: fixed;
+	bottom: 0px;
+	left: 60%;
+	filter: grayscale(100%) blur(1px) brightness(50%);
+}
+
+#bars {
+	width: 100%;
+	hight: 100%;
+	position: fixed;
+	filter: grayscale(100%) blur(1px) brightness(50%);
+}
+
+#static {
+	width: 100%;
+	hight: 100%;
+	position: fixed;
+	opacity: 0.3;
+
+}
+#prison {
+	width: 100%;
+	hight: 100%;
+	position: fixed;
+	filter: grayscale(100%) blur(2px) brightness(50%);
+}
+
+.btn {
+	color: white;
+	background-color: black;
+	border-radius: 15px;
+	border: none;
+	position: fixed;
+
+}
